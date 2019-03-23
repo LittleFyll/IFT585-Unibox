@@ -8,7 +8,6 @@ namespace Unibox
 {
     static class CommandController
     {
-
         #region Authentication
         static public void SignIn() {
             // side effect: update connected list to all
@@ -49,10 +48,14 @@ namespace Unibox
         static public void OpenFolder()
         {
         }
+
+        static public void DeleteFile()
+        {
+        }
         #endregion
 
         #region InvitationManagement
-        static public void ResponseToInvitation(bool response)
+        static public void ResponseToInvite(bool response)
         {
         }
         #endregion
