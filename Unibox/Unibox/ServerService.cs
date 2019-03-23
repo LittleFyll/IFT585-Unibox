@@ -64,7 +64,5 @@ namespace Unibox
             // return a list of groups id & name
             throw new NotImplementedException();
         }
-
-        static public void FetchsFileFromGroup
     }
 }
