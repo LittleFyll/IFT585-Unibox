@@ -23,5 +23,21 @@ namespace Unibox
             {
             }
         }
+
+        public Group Group1
+        {
+            get => default(Group);
+            set
+            {
+            }
+        }
+
+        public User User1
+        {
+            get => default(User);
+            set
+            {
+            }
+        }
     }
 }

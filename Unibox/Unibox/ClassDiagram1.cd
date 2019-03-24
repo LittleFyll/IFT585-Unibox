@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Unibox.AbstractThread">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAgAACAAAAgAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractThread.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Unibox.CommandController">
+    <Position X="4.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAGCAAAAAKIAAAAAAAAAAAAQAAAAEAAEAAAAAAAQ=</HashCode>
+      <FileName>CommandController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Unibox.FileSynchronizerThread">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FileSynchronizerThread.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Unibox.LocalFilesService">
+    <Position X="9.25" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LocalFilesService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Unibox.ServerListenerThread">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerListenerThread.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Unibox.ServerService">
+    <Position X="7" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAABGCAAAAACIIAAAAAhAAAACAgAACAAAEAAAAAgAA=</HashCode>
+      <FileName>ServerService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Unibox.AppStates">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAABAEAAAAAAAACAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structs\AppStates.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Group1" />
+      <Property Name="User1" />
+    </ShowAsAssociation>
+  </Struct>
+  <Struct Name="Unibox.FileInfo">
+    <Position X="6" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAA=</HashCode>
+      <FileName>Structs\FileInfo.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Unibox.Group">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABASAAAAAABAAAIAAAAAAAAAEAAAQAAEAAAAAAAAA=</HashCode>
+      <FileName>Structs\Group.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="User1" />
+      <Property Name="FileInfo1" />
+    </ShowAsAssociation>
+  </Struct>
+  <Struct Name="Unibox.User">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAQAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structs\User.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

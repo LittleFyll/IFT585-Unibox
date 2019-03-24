@@ -29,5 +29,21 @@ namespace Unibox
             {
             }
         }
+
+        public User User1
+        {
+            get => default(User);
+            set
+            {
+            }
+        }
+
+        public FileInfo FileInfo1
+        {
+            get => default(FileInfo);
+            set
+            {
+            }
+        }
     }
 }
