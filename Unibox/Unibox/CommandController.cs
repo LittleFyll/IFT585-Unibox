@@ -45,10 +45,14 @@
         static public void OpenFolder()
         {
         }
+
+        static public void DeleteFile()
+        {
+        }
         #endregion
 
         #region InvitationManagement
-        static public void ResponseToInvitation(bool response)
+        static public void ResponseToInvite(bool response)
         {
         }
         #endregion
