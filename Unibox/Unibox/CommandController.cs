@@ -9,15 +9,18 @@ namespace Unibox
     static class CommandController
     {
         #region Authentication
-        static public void SignIn() {
+        static public void SignIn()
+        {
             // side effect: update connected list to all
         }
 
-        static public void SignOut() {
+        static public void SignOut()
+        {
             // side effect: update connected list to all
         }
 
-        static public void SignUp() {
+        static public void SignUp()
+        {
             // side effect: update connected list to all
         }
         #endregion

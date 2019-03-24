@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Unibox
 {
-    struct FileInfo
+    public struct FileInfo
     {
         public int fileId;
         public string fileName;

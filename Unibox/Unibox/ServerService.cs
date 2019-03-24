@@ -2,7 +2,7 @@
 
 namespace Unibox
 {
-    class ServerService
+   static class ServerService
     {
         #region Authentication
         /*
@@ -14,7 +14,7 @@ namespace Unibox
          */
         static public bool SignIn(String username, String password)
         {
-           throw new NotImplementedException();
+            throw new NotImplementedException();
         }
 
         /*

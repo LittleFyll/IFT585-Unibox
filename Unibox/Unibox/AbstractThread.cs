@@ -21,15 +21,15 @@ namespace Unibox
         public void Join() => _thread.Join();
         public bool IsAlive => _thread.IsAlive;
 
-        public abstract void RunThread()
-        {
-            // Do stuff
+        public abstract void RunThread();
+        //{
+        // Do stuff
 
-            // Invite
-            // ConnectedUserList
-            // GroupList
-            // NewFile
-            // UpdateFile
-        }
+        // Invite
+        // ConnectedUserList
+        // GroupList
+        // NewFile
+        // UpdateFile
+        //}
     }
 }
